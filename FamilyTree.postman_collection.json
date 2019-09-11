@@ -17,7 +17,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://127.0.0.1:8000/persons/4",
+					"raw": "http://18.232.180.214/persons/4",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -76,7 +76,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/persons/create",
+					"raw": "http://18.232.180.214/persons/create",
 					"protocol": "http",
 					"host": [
 						"127",
