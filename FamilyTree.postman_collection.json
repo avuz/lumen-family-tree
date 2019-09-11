@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "d0508932-2ffa-4869-950f-335fe18c611f",
+		"name": "FamilyTree",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Person",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "child 4 name",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "last name",
+							"type": "text"
+						},
+						{
+							"key": "year_of_birth",
+							"value": "2019",
+							"type": "text"
+						},
+						{
+							"key": "father_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "mother_id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
