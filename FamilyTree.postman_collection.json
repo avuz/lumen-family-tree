@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d0508932-2ffa-4869-950f-335fe18c611f",
+		"_postman_id": "45499da2-e082-42fe-83b8-39ab0d0d34ee",
 		"name": "FamilyTree",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -20,12 +20,11 @@
 					"raw": "http://18.232.180.214/persons/4",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"18",
+						"232",
+						"180",
+						"214"
 					],
-					"port": "8000",
 					"path": [
 						"persons",
 						"4"
@@ -79,12 +78,11 @@
 					"raw": "http://18.232.180.214/persons/create",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"18",
+						"232",
+						"180",
+						"214"
 					],
-					"port": "8000",
 					"path": [
 						"persons",
 						"create"
